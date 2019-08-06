@@ -15,7 +15,7 @@ Input: [1, 3, 5];
 Output: [2, 6, 10];
 ```
 
-### Example1
+### Example2
 
 ```js
 Input: [11, 2, 5];
