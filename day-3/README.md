@@ -7,6 +7,7 @@
 ### 相关知识点
 
 >     length: 数组长度
+>     %: 取模操作
 
 ### Example1
 
@@ -29,7 +30,7 @@ Input: [1, 2, 3, 4, 5, 6];
 Output: 'COOL';
 ```
 
-### Example3
+### Example4
 
 ```js
 Input: [3];
