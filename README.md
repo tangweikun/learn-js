@@ -26,3 +26,14 @@
 - filter
 
 ### String
+
+- charAt
+- indexOf
+- lastIndexOf
+- localCompare
+- slice
+- replace
+- split
+- trim
+- toLowerCase
+- toUpperCase
