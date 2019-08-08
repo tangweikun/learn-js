@@ -37,3 +37,10 @@
 - trim
 - toLowerCase
 - toUpperCase
+
+### Math
+
+- Math.max
+- Math.min
+
+### function
