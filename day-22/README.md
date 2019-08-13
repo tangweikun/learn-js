@@ -1,4 +1,4 @@
-## day-20
+## day-22
 
 ### Question
 
@@ -6,7 +6,8 @@
 
 ### 知识点
 
-- replace
+- concat
+- Array.isArray
 
 ### Example1
 
