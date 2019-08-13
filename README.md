@@ -44,3 +44,8 @@
 - Math.min
 
 ### function
+
+### 其他
+
+- new Date
+- typeof
