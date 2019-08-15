@@ -2,7 +2,7 @@ function reverseString(str) {
   return str
     .split('')
     .reverse()
-    .join('');
+    .join('')
 }
 
-console.log(reverseString('abc dg'));
+console.log(reverseString('abc dg'))

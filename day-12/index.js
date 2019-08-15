@@ -1,16 +1,17 @@
+// TODO
+
 function uniq(arr) {
-  const helper = [];
-  const res = [];
+  const helper = {}
+  const res = []
 
   for (let i = 0; i < arr.length; i++) {
-    if (helper.findIndex(n => n === arr[i]) === -1) {
-      res.push(arr[i]);
+    if (!(arr[i] in helper)) {
+      res.push(arr[i])
+      helper[arr[i]] = 0
     }
-
-    helper.push(arr[i]);
   }
 
-  return res;
+  return res
 }
 
-console.log(uniq([-2, 3, 3, 4]));
+console.log(uniq([-2, 3, 3, 4, 2, 3, 4]))
