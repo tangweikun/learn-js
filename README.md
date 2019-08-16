@@ -24,6 +24,7 @@
 - some
 - every
 - filter
+- Array.isArray
 
 ### String
 
