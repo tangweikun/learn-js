@@ -3,26 +3,27 @@
  * @return {string}
  */
 var countAndSay = function(n) {
-  let current = 1;
-  let str = '1';
+  let current = 1
+  let str = '1'
 
   while (current < n) {
-    let start = 0;
-    let newStr = '';
+    let newStr = ''
+    let count = 1
 
     for (let i = 0; i < str.length; i++) {
       if (str[i] !== str[i + 1]) {
-        const count = i - start + 1;
-        start = i + 1;
-        newStr += count + str[i];
+        newStr += count + str[i]
+        count = 1
+      } else {
+        count++
       }
     }
 
-    str = newStr;
-    current++;
+    str = newStr
+    current++
   }
 
-  return str;
-};
+  return str
+}
 
-console.log(countAndSay(4));
+console.log(countAndSay(5))
